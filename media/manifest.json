@@ -1,0 +1,174 @@
+{
+  "version": "20261012-media-v1",
+  "photos": [
+    {
+      "id": "media-01",
+      "title": "形象照",
+      "category": "人物肖像",
+      "caption": "白底半身人物照，適合主持人介紹與人物報導。",
+      "source": "既有媒體照片包",
+      "dimensions": [
+        2804,
+        3123
+      ],
+      "bytes": 798900,
+      "sha256": "880520cbc1184e27941ba1f96a65395d160b5e16058e0fff3105eaaec93f85e7"
+    },
+    {
+      "id": "media-02",
+      "title": "夢想便利貼",
+      "category": "人生故事",
+      "caption": "2010舊書櫃與夢想便利貼；年份依既有提案資料。",
+      "source": "既有媒體照片包",
+      "dimensions": [
+        1078,
+        1444
+      ],
+      "bytes": 330591,
+      "sha256": "f18d8dcf12c9bcea479b7d0f0660083086430d9067046102159f2baaf5852685"
+    },
+    {
+      "id": "media-03",
+      "title": "十年夢想盤點",
+      "category": "人生故事",
+      "caption": "2015.12.31的夢想清單及十年盤點記號。",
+      "source": "既有媒體照片包",
+      "dimensions": [
+        1588,
+        892
+      ],
+      "bytes": 496099,
+      "sha256": "78501ebbcf6b154d40ef8141dc500da5da7abf9b085e0266a7bb5f5db785b64e"
+    },
+    {
+      "id": "media-04",
+      "title": "工地主任舊照",
+      "category": "人生故事",
+      "caption": "1995工地舊照；年份依既有提案資料。",
+      "source": "既有媒體照片包",
+      "dimensions": [
+        1482,
+        996
+      ],
+      "bytes": 278482,
+      "sha256": "d556752d5c9e99f161868acae27afaceae57a29ef2ee78041ab39bd218be42cb"
+    },
+    {
+      "id": "media-05",
+      "title": "台中綠美圖演講",
+      "category": "演講與交流",
+      "caption": "2026台中綠美圖講堂全景。",
+      "source": "既有媒體照片包",
+      "dimensions": [
+        4032,
+        3024
+      ],
+      "bytes": 1828206,
+      "sha256": "b3116d207acf52994c8c8817d1f3d1f3ad0c2a15150ada3e195e9b9ab68d5c3d"
+    },
+    {
+      "id": "media-06",
+      "title": "台中綠美圖簽書",
+      "category": "演講與交流",
+      "caption": "2026台中綠美圖簽書現場。",
+      "source": "既有媒體照片包",
+      "dimensions": [
+        2048,
+        1365
+      ],
+      "bytes": 295546,
+      "sha256": "e1ae9a9efbd4a8f0433624f41584ec9f21b011fdaa247459513e059855bced99"
+    },
+    {
+      "id": "media-07",
+      "title": "吉隆坡教學現場",
+      "category": "演講與交流",
+      "caption": "2025吉隆坡KLCC《遊戲化教學的技術》現場；不是50夢想講座。",
+      "source": "既有媒體照片包",
+      "dimensions": [
+        2048,
+        1150
+      ],
+      "bytes": 284927,
+      "sha256": "14f4755782e038f9e965c84d0a8bac709a5888de09b5de549dcba87953be7e7b"
+    },
+    {
+      "id": "media-08",
+      "title": "吉隆坡簽書交流",
+      "category": "演講與交流",
+      "caption": "2025吉隆坡KLCC簽書交流。",
+      "source": "既有媒體照片包",
+      "dimensions": [
+        2048,
+        1147
+      ],
+      "bytes": 352233,
+      "sha256": "0061a35e6316a2d96f8e9ab828c5810815bb0e9901ea8176cd65e802ef9e6839"
+    },
+    {
+      "id": "P04-001",
+      "title": "台上與觀眾",
+      "category": "授課與互動",
+      "caption": "福哥台上演講與觀眾同框；場次未另確認，不據此宣稱企業背書。",
+      "source": "廣告演講原圖",
+      "dimensions": [
+        2569,
+        1811
+      ],
+      "bytes": 1160864,
+      "sha256": "1d5ff7c9cd80c61fbbe00f73caecb52b30d36d4e3e7f7beec57a184a27bd0e2d"
+    },
+    {
+      "id": "P05-011",
+      "title": "夜間製課紀錄",
+      "category": "製課幕後",
+      "caption": "《簡報的技術》拍攝與日夜剪輯資料中的工作現場。",
+      "source": "備課與日夜剪輯",
+      "dimensions": [
+        2048,
+        1536
+      ],
+      "bytes": 336795,
+      "sha256": "28b6e336c6624bdd1c58c70e77f62f55c68c2dccf76c3ecf692ddffe8fc9deee"
+    },
+    {
+      "id": "P07-126",
+      "title": "與學員交流",
+      "category": "授課與互動",
+      "caption": "2025簡報體驗發表會的現場交流；不是線上課提供的現場服務。",
+      "source": "2025簡報體驗發表會（Dropbox）",
+      "dimensions": [
+        3200,
+        2134
+      ],
+      "bytes": 2326945,
+      "sha256": "309b3f7d3bc8dcc497488806ea09d78af096d51e55c3b38757e2ea3b7db2d719"
+    },
+    {
+      "id": "P08-010",
+      "title": "自然人物肖像",
+      "category": "人物肖像",
+      "caption": "簡報的技術攝影師平面照片：自然桌前肖像。",
+      "source": "攝影師平面照片",
+      "dimensions": [
+        4240,
+        2832
+      ],
+      "bytes": 5006458,
+      "sha256": "9c24744e9b2cb0d3fc4caf0ce94b22cdf60f2949d44009c78cac36ff9a3394db"
+    },
+    {
+      "id": "P11-029",
+      "title": "製課訪談側拍",
+      "category": "製課幕後",
+      "caption": "《簡報的技術》製作側拍中的傾聽與交流。",
+      "source": "製作側拍照片",
+      "dimensions": [
+        4080,
+        3072
+      ],
+      "bytes": 1794834,
+      "sha256": "b2fbff1e0345e4b8b8f105388a4ce82ee485138862e7971ffd6924940faf26fc"
+    }
+  ]
+}

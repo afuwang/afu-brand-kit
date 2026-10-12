@@ -4,13 +4,41 @@ if (!defined('ABSPATH')) { exit; }
 add_action('init', function () {
     $path = parse_url($_SERVER['REQUEST_URI'] ?? '/', PHP_URL_PATH);
     $routes = ['/brand-profile'=>['brand-profile.html','text/html; charset=utf-8',false], '/brand-profile/'=>['brand-profile.html','text/html; charset=utf-8',false], '/brand-profile.pdf'=>['afu-brand-profile.pdf','application/pdf',true], '/brand-profile.md'=>['afu-brand-profile.md','text/markdown; charset=utf-8',true], '/brand-profile.json'=>['afu-brand-profile.json','application/json; charset=utf-8',false]];
+
+    $routes['/brand-media-kit.zip'] = ['media/afu-media-kit.zip','application/zip',true];
+    $routes['/brand-media/photos/media-01.jpg'] = ['media/photos/media-01.jpg','image/jpeg',true];
+    $routes['/brand-media/previews/media-01.jpg'] = ['media/previews/media-01.jpg','image/jpeg',false];
+    $routes['/brand-media/photos/media-02.jpg'] = ['media/photos/media-02.jpg','image/jpeg',true];
+    $routes['/brand-media/previews/media-02.jpg'] = ['media/previews/media-02.jpg','image/jpeg',false];
+    $routes['/brand-media/photos/media-03.jpg'] = ['media/photos/media-03.jpg','image/jpeg',true];
+    $routes['/brand-media/previews/media-03.jpg'] = ['media/previews/media-03.jpg','image/jpeg',false];
+    $routes['/brand-media/photos/media-04.jpg'] = ['media/photos/media-04.jpg','image/jpeg',true];
+    $routes['/brand-media/previews/media-04.jpg'] = ['media/previews/media-04.jpg','image/jpeg',false];
+    $routes['/brand-media/photos/media-05.jpg'] = ['media/photos/media-05.jpg','image/jpeg',true];
+    $routes['/brand-media/previews/media-05.jpg'] = ['media/previews/media-05.jpg','image/jpeg',false];
+    $routes['/brand-media/photos/media-06.jpg'] = ['media/photos/media-06.jpg','image/jpeg',true];
+    $routes['/brand-media/previews/media-06.jpg'] = ['media/previews/media-06.jpg','image/jpeg',false];
+    $routes['/brand-media/photos/media-07.jpg'] = ['media/photos/media-07.jpg','image/jpeg',true];
+    $routes['/brand-media/previews/media-07.jpg'] = ['media/previews/media-07.jpg','image/jpeg',false];
+    $routes['/brand-media/photos/media-08.jpg'] = ['media/photos/media-08.jpg','image/jpeg',true];
+    $routes['/brand-media/previews/media-08.jpg'] = ['media/previews/media-08.jpg','image/jpeg',false];
+    $routes['/brand-media/photos/P04-001.jpg'] = ['media/photos/P04-001.jpg','image/jpeg',true];
+    $routes['/brand-media/previews/P04-001.jpg'] = ['media/previews/P04-001.jpg','image/jpeg',false];
+    $routes['/brand-media/photos/P05-011.jpg'] = ['media/photos/P05-011.jpg','image/jpeg',true];
+    $routes['/brand-media/previews/P05-011.jpg'] = ['media/previews/P05-011.jpg','image/jpeg',false];
+    $routes['/brand-media/photos/P07-126.jpg'] = ['media/photos/P07-126.jpg','image/jpeg',true];
+    $routes['/brand-media/previews/P07-126.jpg'] = ['media/previews/P07-126.jpg','image/jpeg',false];
+    $routes['/brand-media/photos/P08-010.jpg'] = ['media/photos/P08-010.jpg','image/jpeg',true];
+    $routes['/brand-media/previews/P08-010.jpg'] = ['media/previews/P08-010.jpg','image/jpeg',false];
+    $routes['/brand-media/photos/P11-029.jpg'] = ['media/photos/P11-029.jpg','image/jpeg',true];
+    $routes['/brand-media/previews/P11-029.jpg'] = ['media/previews/P11-029.jpg','image/jpeg',false];
     if (!isset($routes[$path])) { return; }
     if (!in_array($_SERVER['REQUEST_METHOD'] ?? 'GET', ['GET','HEAD'], true)) { status_header(405); header('Allow: GET, HEAD'); exit; }
     [$name,$mime,$download] = $routes[$path];
     $file = WP_CONTENT_DIR . '/uploads/afu-brand-profile/20261012-v1/' . $name;
     if (!is_file($file)) { status_header(503); exit; }
     status_header(200); header('Content-Type: ' . $mime); header('X-Content-Type-Options: nosniff'); header('Cache-Control: public, max-age=300');
-    if ($download) { header('Content-Disposition: attachment; filename="' . $name . '"'); }
+    if ($download) { header('Content-Disposition: attachment; filename="' . basename($name) . '"'); }
     header('Content-Length: ' . filesize($file));
     if (($_SERVER['REQUEST_METHOD'] ?? 'GET') !== 'HEAD') { readfile($file); }
     exit;
