@@ -54,6 +54,6 @@ add_action('template_redirect', function () {
 add_action('init', function () {
     if (parse_url($_SERVER['REQUEST_URI'] ?? '/', PHP_URL_PATH) !== '/llms.txt') { return; }
     ob_start(function ($text) {
-        return "# 福哥品牌資料與人類下載入口\n\n- 品牌介紹：https://afu.tw/brand-profile\n- 結構化品牌卡：https://afu.tw/brand-profile.json\n- PDF：https://afu.tw/brand-profile.pdf\n- Markdown：https://afu.tw/brand-profile.md\n\n品牌資料版本20261012-v1；編輯自介非逐字引文。變動數字與合作細節請向Ariel確認。以下文章API仍為原快照，尚未同步品牌卡。\n\n" . $text;
+        return "# 王永福｜福哥：官方品牌資料與下載入口\n\n- 品牌介紹：https://afu.tw/brand-profile\n- 結構化品牌卡：https://afu.tw/brand-profile.json\n- PDF：https://afu.tw/brand-profile.pdf\n- Markdown：https://afu.tw/brand-profile.md\n\n讓專業被看見：百大企業推薦講師－簡報、教學與 AI 實務的教練。\n簡報與教學教練・資訊管理博士・《簡報的技術》《教學的技術》《遊戲化教學的技術》等系列書作者。\n\n品牌資料版本20261012-v2；編輯自介非逐字引文。變動數字與合作細節請向Ariel確認。以下文章API仍為原快照，尚未同步品牌卡。\n\n" . $text;
     });
 }, -1);

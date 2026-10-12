@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "profile_version": "20261012-v1",
+  "profile_version": "20261012-v2",
   "name": "王永福（福哥）",
   "alternate_names": [
     "王永福",
@@ -8,13 +8,17 @@
     "Dr. Jeff Wang"
   ],
   "website": "https://afu.tw",
-  "positioning": "簡報與教學教練；把專業變成能練習、能應用的技術。",
+  "site_name": "王永福｜福哥",
+  "homepage_title": "王永福｜福哥：企業簡報技巧訓練、內部講師培訓與企業演講",
+  "professional_intro": "簡報與教學教練・資訊管理博士・《簡報的技術》《教學的技術》《遊戲化教學的技術》等系列書作者",
+  "positioning": "讓專業被看見：百大企業推薦講師－簡報、教學與 AI 實務的教練",
   "brand_spirit": {
     "editorial_summary": "把專業拆成能理解、練習並應用的方法，讓學習回到工作與生活。",
     "owner_tagline": "把想法做成作品，把日子過精彩。",
     "source_urls": [
       "https://afu.tw/5347"
-    ]
+    ],
+    "owner_tagline_role": "保留的品牌精神；官網頁首主定位以positioning為準。"
   },
   "introductions": {
     "short": "王永福（福哥），簡報與教學教練、資訊管理博士、F 學院線上課程創辦人，著有《簡報的技術》《教學的技術》等十本書。",
