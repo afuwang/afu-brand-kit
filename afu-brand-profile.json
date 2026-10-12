@@ -1,0 +1,188 @@
+{
+  "schema_version": "1.0",
+  "profile_version": "20261012-v1",
+  "name": "王永福（福哥）",
+  "alternate_names": [
+    "王永福",
+    "福哥",
+    "Dr. Jeff Wang"
+  ],
+  "website": "https://afu.tw",
+  "positioning": "簡報與教學教練；把專業變成能練習、能應用的技術。",
+  "brand_spirit": {
+    "editorial_summary": "把專業拆成能理解、練習並應用的方法，讓學習回到工作與生活。",
+    "owner_tagline": "把想法做成作品，把日子過精彩。",
+    "source_urls": [
+      "https://afu.tw/5347"
+    ]
+  },
+  "introductions": {
+    "short": "王永福（福哥），簡報與教學教練、資訊管理博士、F 學院線上課程創辦人，著有《簡報的技術》《教學的技術》等十本書。",
+    "medium": "王永福（福哥），簡報與教學教練、資訊管理博士、F 學院線上課程創辦人，著有《簡報的技術》《教學的技術》等十本書。長期投入企業訓練與課程設計，把專業拆成能理解、練習與應用的方法，透過書籍、線上課程、福哥來信與 Podcast，陪伴讀者持續學習。",
+    "long": "王永福（福哥），簡報與教學教練、資訊管理博士、F 學院線上課程創辦人，著有《簡報的技術》《教學的技術》等十本書。長期投入企業訓練與課程設計，把專業拆成能理解、練習與應用的方法，透過書籍、線上課程、福哥來信與 Podcast，陪伴讀者持續學習。擁有超過 20 年企業講師經驗，獲 2013、2014 兩屆台積電師鐸獎，並於 2020 年受邀擔任台積電師鐸獎大會 Keynote Speaker。2022 年完成國立雲林科技大學資訊管理博士學位，與許雅芳及指導教授方國定老師的研究團隊，獲 Elsevier《Entertainment Computing》2022 年度最佳論文。另參與共同創辦 Best100 百大企業講師推薦平台，以及推動與 104 合作的台灣簡報認證。",
+    "note": "供合作與媒體使用的編輯版自介，非逐字引文。"
+  },
+  "verified_claims": [
+    {
+      "claim": "資訊管理博士、F 學院線上課程創辦人、十本著作",
+      "source_urls": [
+        "https://afu.tw/5347"
+      ],
+      "status": "public_site_or_owner_confirmed",
+      "checked_on": "2026-10-12"
+    },
+    {
+      "claim": "2013、2014 台積電師鐸獎",
+      "source_urls": [
+        "https://afu.tw/5347"
+      ],
+      "status": "public_site_or_owner_confirmed",
+      "checked_on": "2026-10-12"
+    },
+    {
+      "claim": "2020 台積電師鐸獎大會 Keynote Speaker",
+      "source_urls": [
+        "https://afu.tw/5717"
+      ],
+      "status": "public_site_or_owner_confirmed",
+      "checked_on": "2026-10-12"
+    },
+    {
+      "claim": "2022最佳論文研究團隊；方國定為指導教授",
+      "source_urls": [
+        "https://afu.tw/5347",
+        "https://afu.tw/4832"
+      ],
+      "status": "public_site_or_owner_confirmed",
+      "checked_on": "2026-10-12"
+    },
+    {
+      "claim": "Best100共同創辦人與公司負責人",
+      "source_urls": [
+        "https://afu.tw/5347",
+        "https://best100.com.tw/about"
+      ],
+      "status": "public_site_or_owner_confirmed",
+      "checked_on": "2026-10-12"
+    },
+    {
+      "claim": "台灣簡報認證共同發起人、公司負責人；與104合作",
+      "source_urls": [
+        "https://afu.tw/5347",
+        "https://blog.104.com.tw/taiwan-presentation-certification/"
+      ],
+      "status": "public_site_or_owner_confirmed",
+      "checked_on": "2026-10-12"
+    }
+  ],
+  "representative_books": [
+    {
+      "title": "上台的技術",
+      "year": 2014,
+      "source_url": "https://afu.tw/5347"
+    },
+    {
+      "title": "千萬講師的50堂說話課",
+      "year": 2017,
+      "source_url": "https://afu.tw/5347"
+    },
+    {
+      "title": "教學的技術",
+      "year": 2019,
+      "source_url": "https://afu.tw/5347"
+    },
+    {
+      "title": "工作與生活的技術",
+      "year": 2020,
+      "source_url": "https://afu.tw/5347"
+    },
+    {
+      "title": "線上教學的技術",
+      "year": 2021,
+      "source_url": "https://afu.tw/5347"
+    },
+    {
+      "title": "遊戲化教學的技術",
+      "year": 2022,
+      "source_url": "https://afu.tw/5347"
+    },
+    {
+      "title": "認真，就不輸了",
+      "year": 2025,
+      "source_url": "https://afu.tw/5347"
+    },
+    {
+      "title": "簡報的技術",
+      "year": 2026,
+      "source_url": "https://afu.tw/5347"
+    }
+  ],
+  "international_editions": [
+    {
+      "title": "46堂成功说话课",
+      "language": "簡體中文",
+      "isbn13": "9787516416396",
+      "source_url": "https://www.sanmin.com.tw/product/index/006627898"
+    },
+    {
+      "title": "教学的技术",
+      "language": "簡體中文",
+      "source_url": "https://www.sanmin.com.tw/product/index/012776507"
+    },
+    {
+      "title": "Gamification in Training and Teaching",
+      "language": "English",
+      "source_url": "https://www.amazon.com/dp/B0GC8QXPPG"
+    }
+  ],
+  "cooperation": [
+    {
+      "audience": "HR與主辦單位",
+      "focus": "簡報技巧、內部講師培訓與企業演講",
+      "url": "https://afu.tw/121"
+    },
+    {
+      "audience": "品牌與課程平台",
+      "focus": "付費內容推薦、品牌體驗、訪談與跨平台內容合作",
+      "url": "https://afu.tw/brand-cooperation"
+    },
+    {
+      "audience": "媒體與節目製作單位",
+      "focus": "簡報、教學設計、知識工作者、線上課程與工作生活實踐",
+      "url": "https://afu.tw/5347#media"
+    }
+  ],
+  "contact": {
+    "manager": "營運經理 Ariel（黃經理）",
+    "email": "totclub@gmail.com",
+    "request": "請簡單說明邀約單位、需求，以及聯絡窗口姓名。"
+  },
+  "platforms": [
+    "福哥來信",
+    "福哥來聊 Podcast",
+    "Facebook 個人頁與粉絲團",
+    "YouTube",
+    "知識工作者的 AI 應用週報"
+  ],
+  "time_sensitive_metrics": {
+    "newsletter_subscribers": "超過3萬",
+    "source_url": "https://afu.tw/5347",
+    "as_of": "2026-10-12",
+    "verification": "官網介紹，非本次平台後台查核；其他平台數字洽詢時更新。"
+  },
+  "sources": {
+    "profile": "https://afu.tw/5347",
+    "keynote": "https://afu.tw/5717",
+    "training": "https://afu.tw/121",
+    "brands": "https://afu.tw/brand-cooperation",
+    "courses": "https://funi.best/",
+    "best100": "https://best100.com.tw/about",
+    "certification": "https://blog.104.com.tw/taiwan-presentation-certification/"
+  },
+  "usage_notes": [
+    "優先引用官網原文；編輯自介不是逐字引文。",
+    "時效數字與合作細節由Ariel確認。",
+    "訪談連結不代表已收錄全部逐字稿。",
+    "書籍、人物照片與商標另有權利；下載不表示取得任意改作或代言授權。"
+  ]
+}
